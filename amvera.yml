@@ -1,0 +1,11 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: 3.8
+build:
+  requirementsPath: requirements.txt
+run:
+  scriptName: bot1.py
+  persistenceMount: bomber_users.db
+  containerPort: 80
